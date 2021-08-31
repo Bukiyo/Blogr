@@ -24,9 +24,6 @@ export default {
 </script>
 
 <style scoped>
-.navbar-collapse > form {
-    justify-content: center !important;
-  }
 
   header {
   background: url("../../assets/bg-pattern-intro.svg") 22% 51.5% no-repeat,
@@ -63,7 +60,8 @@ p {
 
 .heading-items button {
   border-radius: 25px;
-  width: 8rem;
+  /* width: 8rem; */
+  padding: 0.5rem 1.2rem;
 }
 
 .btnStart {

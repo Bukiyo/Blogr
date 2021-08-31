@@ -128,7 +128,7 @@ footer {
 @media screen and (max-width: 767.5px) {
   footer {
     height: 70rem;
-    padding: 3rem;
+    padding: 8rem;
   }
   .footer-items {
     margin-bottom: 2rem;
