@@ -75,14 +75,14 @@ export default {
     .img .bg {
         position: relative;
         bottom: 20%;
-        right: -12%;
+        right: -20%;
     }
 
     @media screen and (max-width: 1200px) {
         .img .bg {
             position: relative;
             bottom: 20%;
-            right: -20%;
+            right: -33%;
             width: 45rem;
         }
         .body {
@@ -124,15 +124,15 @@ export default {
             flex-direction: column-reverse;
         }
         .title {
-            font-size: 2.5rem;
+            font-size: 2.25rem;
         }
         .sub-title {
             text-align: center;
-            font-size: 2.5rem;
+            font-size: 2.25rem;
         }
         .body {
             text-align: center;
-            font-size: 1.2rem;
+            font-size: 1rem;
             line-height: 2.5rem;
         }
     }
@@ -157,15 +157,180 @@ export default {
             flex-direction: column-reverse;
         }
         .title {
-            font-size: 2.5rem;
+            font-size: 2.25rem;
         }
         .sub-title {
             text-align: center;
-            font-size: 2.5rem;
+            font-size: 2.25rem;
         }
         .body {
             text-align: center;
-            font-size: 1.2rem;
+            font-size: 1rem;
+            line-height: 2.5rem;
+        }
+    }
+
+    @media screen and (max-width: 520px) {
+        .img {
+            display: flex;
+            justify-content: center;
+        }
+        .img .bg {
+            position: relative;
+            bottom: 5%;
+            right: 0;
+            width: 28rem;
+            margin-bottom: 3rem;
+
+        }
+        .text {
+            margin-bottom: 10rem;
+        }
+        .content {
+            flex-direction: column-reverse;
+        }
+        .title {
+            font-size: 2.25rem;
+        }
+        .sub-title {
+            text-align: center;
+            font-size: 2.25rem;
+        }
+        .body {
+            text-align: center;
+            font-size: 1rem;
+            line-height: 2.5rem;
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        .img {
+            display: flex;
+            justify-content: center;
+        }
+        .img .bg {
+            position: relative;
+            bottom: 5%;
+            right: 0;
+            width: 24rem;
+            margin-bottom: 3rem;
+
+        }
+        .text {
+            margin-bottom: 10rem;
+        }
+        .content {
+            flex-direction: column-reverse;
+        }
+        .title {
+            font-size: 2rem;
+        }
+        .sub-title {
+            text-align: center;
+            font-size: 2rem;
+        }
+        .body {
+            text-align: center;
+            font-size: 1.1rem;
+            line-height: 2.5rem;
+        }
+    }
+
+    @media screen and (max-width: 390px) {
+        .img {
+            display: flex;
+            justify-content: center;
+        }
+        .img .bg {
+            position: relative;
+            bottom: 5%;
+            right: 0;
+            width: 21rem;
+            margin-bottom: 3rem;
+
+        }
+        .text {
+            margin-bottom: 10rem;
+        }
+        .content {
+            flex-direction: column-reverse;
+        }
+        .title {
+            font-size: 2rem;
+        }
+        .sub-title {
+            text-align: center;
+            font-size: 2rem;
+        }
+        .body {
+            text-align: center;
+            font-size: 1rem;
+            line-height: 2.5rem;
+        }
+    }
+
+    @media screen and (max-width: 340px) {
+        .img {
+            display: flex;
+            justify-content: center;
+        }
+        .img .bg {
+            position: relative;
+            bottom: 5%;
+            right: 0;
+            width: 19rem;
+            margin-bottom: 3rem;
+
+        }
+        .text {
+            margin-bottom: 10rem;
+        }
+        .content {
+            flex-direction: column-reverse;
+        }
+        .title {
+            font-size: 1.9rem;
+        }
+        .sub-title {
+            text-align: center;
+            font-size: 1.9rem;
+        }
+        .body {
+            text-align: center;
+            font-size: 1rem;
+            line-height: 2.5rem;
+        }
+    }
+
+    @media screen and (max-width: 315px) {
+        .img {
+            display: flex;
+            justify-content: center;
+        }
+        .img .bg {
+            position: relative;
+            bottom: 5%;
+            right: 0;
+            width: 16rem;
+            margin-bottom: 3rem;
+
+        }
+        .text {
+            margin-bottom: 10rem;
+        }
+        .content {
+            flex-direction: column-reverse;
+        }
+        .title {
+            font-size: 1.75rem;
+        }
+        .sub-title {
+            text-align: center;
+            font-size: 1.75rem;
+        }
+        .body {
+            text-align: center;
+            font-size: 0.9rem;
             line-height: 2.5rem;
         }
     }

@@ -66,7 +66,7 @@ export default {
   background-color: hsl(240, 10%, 16%);
   background: url("../../assets/bg-pattern-circles.svg") -38% 78% no-repeat,
     linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-  height: 53vh;
+  height: 30rem;
   border-top-right-radius: 80px;
   border-bottom-left-radius: 80px;
   margin-bottom: 7rem;
@@ -158,7 +158,7 @@ export default {
     background-color: hsl(240, 10%, 16%);
     background: url("../../assets/bg-pattern-circles.svg") -38% 78% no-repeat,
       linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-    height: 50vh;
+    height: 28rem;
     margin-bottom: 7rem;
   }
   .img {
@@ -194,7 +194,7 @@ export default {
     background-color: hsl(240, 10%, 16%);
     background: url("../../assets/bg-pattern-circles.svg") -38% 78% no-repeat,
       linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-    height: 50vh;
+    height: 28rem;
     margin-bottom: 7rem;
   }
   .img {
@@ -230,7 +230,7 @@ export default {
     background-color: hsl(240, 10%, 16%);
     background: url("../../assets/bg-pattern-circles.svg") -38% 78% no-repeat,
       linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-    height: 50vh;
+    height: 28rem;
     margin-bottom: 7rem;
   }
   .img {
@@ -261,7 +261,7 @@ export default {
     background-color: hsl(240, 10%, 16%);
     background: url("../../assets/bg-pattern-circles.svg") -38% 78% no-repeat,
       linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-    height: 42vh;
+    height: 23rem;
     margin-bottom: 7rem;
   }
   .img {
@@ -294,14 +294,14 @@ export default {
     background-color: hsl(240, 10%, 16%);
     background: url("../../assets/bg-pattern-circles.svg") -38% 78% no-repeat,
       linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-    height: 42vh;
+    height: 21rem;
     margin-bottom: 7rem;
   }
   .img {
     position: relative;
     top: 15%;
     width: 20rem;
-    right: 7%;
+    right: 0%;
     
   }
 
@@ -311,6 +311,7 @@ export default {
   }
   .text {
     padding: 0rem;
+    margin-top: 6rem;
   }
   .title {
     font-size: 1.8rem;
@@ -327,7 +328,7 @@ export default {
     background-color: hsl(240, 10%, 16%);
     background: url("../../assets/bg-pattern-circles.svg") 38% 125% no-repeat,
       linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-    height: 74vh;
+    height: 45rem;
     border-top-right-radius: 80px;
     border-bottom-left-radius: 80px;
     margin-bottom: 7rem;
@@ -342,18 +343,305 @@ export default {
   .img {
     width: 30rem;
     padding: 0 3rem;
+    
   }
   .text {
-    padding: 0 5rem;
-    margin-top: 0;
+    padding: 0 2rem;
+    margin-top: 3rem;
   }
   .title {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
+
   }
   .sub-title {
     text-align: center;
     font-size: 1.1rem;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .art-infrastructure {
+    background-color: hsl(240, 10%, 16%);
+    background: url("../../assets/bg-pattern-circles.svg") 38% 125% no-repeat,
+      linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    height: 48rem;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    margin-bottom: 7rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 10rem;
+    margin-top: 5rem;
+  }
+  .img {
+    width: 26rem;
+    padding: 0 3rem;
+    position: relative;
+    right: 0%;
+  }
+  .text {
+    padding: 0 3rem;
+    margin-top: 3rem;
+  }
+  .title {
+    text-align: center;
+    font-size: 2.1rem;
+    width: auto;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 1rem;
+    width: auto;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .art-infrastructure {
+    background-color: hsl(240, 10%, 16%);
+    background: url("../../assets/bg-pattern-circles.svg") 38% 125% no-repeat,
+      linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    height: 48rem;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    margin-bottom: 7rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 10rem;
+    margin-top: 5rem;
+  }
+  .img {
+    width: 26rem;
+    padding: 0 3rem;
+    position: relative;
+    right: 3%;
+  }
+  .text {
+    padding: 0 3rem;
+    margin-top: 3rem;
+  }
+  .title {
+    text-align: center;
+    font-size: 2.1rem;
+    width: auto;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 1rem;
+    width: auto;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .art-infrastructure {
+    background-color: hsl(240, 10%, 16%);
+    background: url("../../assets/bg-pattern-circles.svg") 38% 125% no-repeat,
+      linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    height: 50rem;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    margin-bottom: 7rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 10rem;
+    margin-top: 5rem;
+  }
+  .img {
+    width: 26rem;
+    padding: 0 3rem;
+    position: relative;
+    right: 15%;
+    
+  }
+  .text {
+    padding: 0 3rem;
+    margin-top: 2rem;
+  }
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    width: auto;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 1rem;
+    width: auto;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .art-infrastructure {
+    background-color: hsl(240, 10%, 16%);
+    background: url("../../assets/bg-pattern-circles.svg") 38% 125% no-repeat,
+      linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    height: 50rem;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    margin-bottom: 7rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 10rem;
+    margin-top: 5rem;
+  }
+  .img {
+    width: 24rem;
+    padding: 0 3rem;
+    position: relative;
+    right: 15%;
+    
+  }
+  .text {
+    padding: 0 3rem;
+    margin-top: 2rem;
+  }
+  .title {
+    text-align: center;
+    font-size: 1.9rem;
+    width: auto;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 1rem;
+    width: auto;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .art-infrastructure {
+    background-color: hsl(240, 10%, 16%);
+    background: url("../../assets/bg-pattern-circles.svg") 38% 125% no-repeat,
+      linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    height: 50rem;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    margin-bottom: 7rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 10rem;
+    margin-top: 5rem;
+  }
+  .img {
+    width: 24rem;
+    padding: 0 3rem;
+    position: relative;
+    right: 15%;
+    
+  }
+  .text {
+    padding: 0 3rem;
+    margin-top: 2rem;
+  }
+  .title {
+    text-align: center;
+    font-size: 1.7rem;
+    width: auto;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 1rem;
+    width: auto;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .art-infrastructure {
+    background-color: hsl(240, 10%, 16%);
+    background: url("../../assets/bg-pattern-circles.svg") 38% 125% no-repeat,
+      linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    height: 50rem;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    margin-bottom: 7rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 10rem;
+    margin-top: 5rem;
+  }
+  .img {
+    width: 22rem;
+    padding: 0 3rem;
+    position: relative;
+    right: 15%;
+    
+  }
+  .text {
+    padding: 0 3rem;
+    margin-top: 2rem;
+  }
+  .title {
+    text-align: center;
+    font-size: 1.5rem;
+    width: auto;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 0.85rem;
+    width: auto;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .art-infrastructure {
+    background-color: hsl(240, 10%, 16%);
+    background: url("../../assets/bg-pattern-circles.svg") 38% 125% no-repeat,
+      linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    height: 50rem;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    margin-bottom: 7rem;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 10rem;
+    margin-top: 5rem;
+  }
+  .img {
+    width: 20rem;
+    padding: 0 3rem;
+    position: relative;
+    right: 15%;
+    
+  }
+  .text {
+    padding: 0 3rem;
+    margin-top: 2rem;
+  }
+  .title {
+    text-align: center;
+    font-size: 1.5rem;
+    width: auto;
+  }
+  .sub-title {
+    text-align: center;
+    font-size: 0.85rem;
+    width: auto;
     line-height: 2rem;
   }
 }

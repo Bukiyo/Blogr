@@ -28,8 +28,9 @@ export default {
 <style>
   #app {
     overflow-x: hidden;
+    background-color: #f8f7f7;
   }
-  body {
-    background-color: #d1cece;
+  .navbar-collapse > form {
+    justify-content: center !important;
   }
 </style>

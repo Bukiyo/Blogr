@@ -24,8 +24,10 @@ export default {
 </script>
 
 <style scoped>
+.navbar-collapse > form {
+    justify-content: center !important;
+  }
 
-/* @media screen and (min-width: 1440px) { */
   header {
   background: url("../../assets/bg-pattern-intro.svg") 22% 51.5% no-repeat,
     linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
@@ -37,7 +39,7 @@ export default {
   overflow: hidden;
   color: white;
   margin-bottom: 8rem;
-}
+ }
 
 .heading-items {
   /* position: absolute;
@@ -93,6 +95,7 @@ p {
     font-size: 2.5rem;
 
   }
+  
 }
 
 @media screen and (max-width: 575px) {

@@ -159,15 +159,162 @@ export default {
             flex-direction: column;
         }
         .title {
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
         .sub-title {
             text-align: center;
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
         .body {
             text-align: center;
-            font-size: 1.2rem;
+            font-size: 1rem;
+            line-height: 2.5rem;
+            width: auto;
+        }
+    }
+
+
+    @media screen and (max-width: 520px) {
+        .img .bg {
+            position: relative;
+            bottom: 5%;
+            left: 7%;
+            width: 30rem;
+            margin-bottom: 0rem;
+        }
+        .text {
+            margin-bottom: 25rem;
+        }
+        .content {
+            flex-direction: column;
+        }
+        .title {
+            font-size: 2rem;
+        }
+        .sub-title {
+            text-align: center;
+            font-size: 2rem;
+        }
+        .body {
+            text-align: center;
+            font-size: 1rem;
+            line-height: 2.5rem;
+            width: auto;
+        }
+
+    }
+
+    @media screen and (max-width: 460px) {
+        .img .bg {
+            position: relative;
+            bottom: 5%;
+            left: 7%;
+            width: 26rem;
+            margin-bottom: 0rem;
+        }
+        .text {
+            margin-bottom: 25rem;
+        }
+        .content {
+            flex-direction: column;
+        }
+        .title {
+            font-size: 2rem;
+        }
+        .sub-title {
+            text-align: center;
+            font-size: 2rem;
+        }
+        .body {
+            text-align: center;
+            font-size: 1rem;
+            line-height: 2.5rem;
+            width: auto;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+       .img .bg {
+            position: relative;
+            bottom: 5%;
+            left: 7%;
+            width: 23rem;
+            margin-bottom: 0rem;
+        }
+        .text {
+            margin-bottom: 25rem;
+        }
+        .content {
+            flex-direction: column;
+        }
+        .title {
+            font-size: 1.85rem;
+        }
+        .sub-title {
+            text-align: center;
+            font-size: 1.85rem;
+        }
+        .body {
+            text-align: center;
+            font-size: 1rem;
+            line-height: 2.5rem;
+            width: auto;
+        }
+    }
+
+    @media screen and (max-width: 350px) {
+        .img .bg {
+            position: relative;
+            bottom: 5%;
+            left: 7%;
+            width: 21rem;
+            margin-bottom: 0rem;
+        }
+        .text {
+            margin-bottom: 25rem;
+        }
+        .content {
+            flex-direction: column;
+        }
+        .title {
+            font-size: 1.75rem;
+        }
+        .sub-title {
+            text-align: center;
+            font-size: 1.75rem;
+        }
+        .body {
+            text-align: center;
+            font-size: 1rem;
+            line-height: 2.5rem;
+            width: auto;
+        }
+    }
+
+    @media screen and (max-width: 315px) {
+       .img .bg {
+            position: relative;
+            bottom: 5%;
+            left: 7%;
+            width: 18rem;
+            margin-bottom: 2rem;
+        }
+        .text {
+            margin-bottom: 25rem;
+        }
+        .content {
+            flex-direction: column;
+        }
+        .title {
+            font-size: 1.65rem;
+        }
+        .sub-title {
+            text-align: center;
+            font-size: 1.65rem;
+        }
+        .body {
+            text-align: center;
+            font-size: 0.9rem;
             line-height: 2.5rem;
             width: auto;
         }
