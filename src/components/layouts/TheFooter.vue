@@ -102,7 +102,7 @@ footer {
   background-color: hsl(240, 10%, 16%);
   border-top-right-radius: 80px;
   position: relative;
-  height: 50vh;
+  height: 50rem;
   overflow: hidden;
   color: white;
   /* margin-bottom: 8rem; */
