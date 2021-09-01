@@ -28,7 +28,7 @@ export default {
 <style>
   #app {
     overflow-x: hidden;
-    background-color: #f8f7f7;
+    background-color: #f8f7f7 !important;
   }
   .navbar-collapse > form {
     justify-content: center !important;
