@@ -1,30 +1,40 @@
-# 📰 Blogr Landing Page
-A clean and modern landing page for a publishing platform, built with Vue.js.
+<h1 align="center">📰 Blogr Landing Page</h1>
 
-## 🌟 Overview
-This is a static landing page project that highlights Blogr's core features and benefits in a sleek, responsive design.
+<p align="center">
+  A clean, modern landing page for a publishing platform. <br/>
+  <em>Built with Vue.js and styled with Bootstrap for a smooth, responsive user experience.</em>
+</p>
 
-## 🖥 Features
-- Responsive design optimized for all screen sizes
-- Smooth section transitions
-- Visual focus on content and readability
+---
 
-## 🔧 Tech Stack
-- Vue.js
-- HTML5
-- CSS3
-- Bootstrap
+## 🌟 Features
+
+- 📱 Fully responsive landing page
+- 💡 Clean and modern design layout
+- 🎯 Highlights platform features and benefits
+- 🧩 Component-based architecture
+
+---
+
+## 🛠 Tech Stack
+
+![Vue](https://img.shields.io/badge/-Vue.js-4FC08D?logo=vue.js&logoColor=white&style=flat)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=flat)
+
+---
 
 ## 🌐 Live Demo
-https://blogr-app-bukyo.netlify.app/
+
+🔗 [Click here to view the live project](https://blogr-app-bukyo.netlify.app/)  
+
+---
 
 ## 🚀 Getting Started
 
-1. Clone the repo:
 git clone https://github.com/Bukiyo/Blogr.git
-
-2. Install dependencies:
+cd blogr
 npm install
-
-3. Run the app:
 npm run serve
