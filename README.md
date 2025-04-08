@@ -21,7 +21,7 @@ https://blogr-app-bukyo.netlify.app/
 ## 🚀 Getting Started
 
 1. Clone the repo:
-git clone https://github.com/YOUR-USERNAME/blogr.git
+git clone https://github.com/Bukiyo/Blogr.git
 
 2. Install dependencies:
 npm install
