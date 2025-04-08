@@ -34,7 +34,7 @@
 
 ## 🚀 Getting Started
 
-git clone https://github.com/Bukiyo/Blogr.git
-cd blogr
-npm install
-npm run serve
+- git clone https://github.com/Bukiyo/Blogr.git
+- cd blogr
+- npm install
+- npm run serve
